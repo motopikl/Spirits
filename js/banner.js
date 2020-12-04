@@ -3,7 +3,7 @@ $("#container").css('background-image', localStorage.getItem("#container"));
 	$("#my-button").click(function () {
 			var myData = {
 		1: {
-			image: "banner/banner1.jpg",
+			image: "https://i.imgur.com/eN2P27o.jpg",
 			landscape:"background/background01.jpg",
 			
 		}, 

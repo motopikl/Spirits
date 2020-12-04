@@ -3,10 +3,13 @@
 	}
 	html,
 	body {
-		background: #282830;
+		background: #595959;
 	 	height: 100% !important;
 	    	overflow: hidden !important;
 	    	margin: 0;
+                background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/inflicted.png);
+                background-position: center;
+}
 	}
 	a,
 	li {
@@ -15,7 +18,7 @@
 	}
 	a:hover,
 	li:hover {
-		color: #F29B34 !important;
+		color: #cc223f !important;
 		transition: all 0.3s ease-in-out;
 	}
 	#container {
@@ -33,6 +36,18 @@
 		top: 0px !important;
 		bottom: 0px !important;
 	}
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 3;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    pointer-events: none;
+}
 	.header {
 		width: 100%;
 		position: absolute;
@@ -56,7 +71,7 @@
 		font-size: 13px !important;
 		font-weight: 900 !important;
 		font-size: 13px !impotant;
-		font-family: "Montserrat", "KFhimaji" !important;
+		font-family: "Montserrat" !important;
 		letter-spacing: 1px;
 		text-transform: uppercase;
 		margin-top: -20px;
@@ -67,13 +82,14 @@
 		font-size: 40px !important;
 		font-weight: 900 !important;
 		font-family: "Montserrat", "KFhimaji" !important;
-		text-shadow: 3px 3px #B05F6D;
+		text-shadow: 3px 3px #cc223f;
 		max-width: 1000px;
 		text-overflow: ellipsis;
 		white-space: nowrap !important;
 		overflow: hidden;
 	}
 	#banner {
+                background-image: url(https://i.imgur.com/eN2P27o.jpg);
 		background-repeat: no-repeat !important; 
 		background-position: center 20% !important;
 		background-size: cover !important;
@@ -89,7 +105,7 @@
 		opacity: 1;
 	}
 	.form {
-		background: #242328 !important;
+		background: #1a1a1a !important;
 		box-shadow: 0px 42px 25px -28px rgba(0, 0, 0, 1) !important;
 		line-height: 38px !important;
 		height: 40px !important;
@@ -154,16 +170,5 @@
 		font-size: 15px;
 		text-transform: lowercase !important;
 	}
-	.button {
-		position: absolute; 
-		right: -10px;
-		bottom: -16px;
-	}
-	#my-button {
-		background-color: #FFF;
-		border: none;
-		padding: 6px 10px;
-		font-family: "Montserrat";
-		font-weight: bold;
-	}
+	
 
