@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>🍃🍃🍃</title>
+        <link rel="shortcut icon" type="image/png" href="icons/favicon_01.png"/>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+               function updateClock() {
+                        var m = new Date();
+                        var dateString = ("0" + m.getHours()).slice(-2) + "`" + ("0" + m.getMinutes()).slice(-2)
+                        setTimeout(updateClock, 1000);
+               }
+               updateClock();
+               function updateDate() {
+              var days = ['dimanche','lundi','mardi','mercredi','jeudi.','vendredi','samedi'];
+              var months=['janvier', 'février', 'mars', 'avril', 'mai','juin', 'juillet', 'août','septembre','octobre', 'novembre','décembre'];
+              var m = new Date();
+              var dateString = (days[ m.getDay() ])  + " " +  ("0" + m.getDate()).slice(-2) + " " + (months[ m.getMonth() ])   + " " + m.getFullYear()               
+                        document.getElementById('date').innerHTML = dateString;
+               }
+               updateDate();
+        });
+        </script>
+</head>
+
+<body>
+	<div id="container">
+                <div id="particles-js"></div>
+                    <div id="banner">
+                            <div class="header">
+                                <div id="time">
+                                        <div id="date">dd</div>
+                                </div>
+                                <div class="message">
+                                  BIENVENUE; 手伝いましょうか？
+                                </div>
+                            </div>
+                            <div class="form">
+                                <input  id="searchbox" name="q" type="text" autocomplete="off" class="cleardefault" maxlength="100"   placeholder="I'll reveal your true form!" size="17" autofocus="autofocus" />
+                                <input type="submit" id="image-button" value=""></input>
+                            </div>
+                    </div>
+                    <div class="footer">
+                        <div class="nav">
+                                <ul>
+                                        <a href="https://yummyanime.club" style='text-decoration: none;'>
+                                                <li> アニメ  </li>
+                                        </a>
+                                        <a href="http://vk.com" style='text-decoration: none;'>
+                                                <li> へんたい</li>
+                                        </a>
+                                        <a href="https://2ch.hk" style='text-decoration: none;'>
+                                                <li>yotsuba</li>
+                                        </a>
+                                        <a href="https://soundcloud.com/stream" style='text-decoration: none;'>
+                                                <li>soundcloud</li>
+                                        </a>
+                                        <a href="https://www.deviantart.com" style='text-decoration: none;'>
+                                                <li>注目を集める図面</li>
+                                        </a>
+                                        <a href="https://www.youtube.com/" style='text-decoration: none;'>
+                                                <li>vidosi</li>
+                                        </a>
+                                        <a href="https://www.tumblr.com/" style='text-decoration: none;'>
+                                          <li>just tumblr</li>
+                                  </a>
+                                </ul>
+                        </div>
+                        
+                    </div>
+                    </div>
+              </div>
+</body>
+
+<script type="text/javascript" src="js/search.js"></script>
+<script src="https://assets3.insales.ru/assets/1/552/1024552/1606839632/particles.min.js"></script>
+<script>
+
+        particlesJS("particles-js", {
+          "fps_limit": 23,
+          "particles": {
+            "number": {
+              "value": 80,
+              "density": {
+                "enable": true,
+                "value_area": 800
+              }
+            },
+            "color": {
+              "value": "#ffffff"
+            },
+            "shape": {
+              "type": "image",
+              "stroke": {
+                "width": 3,
+                "color": "#fff"
+              },
+              "polygon": {
+                "nb_sides": 5
+              },
+              "image": {
+                "src": "https://i.imgur.com/dOG6qug.png",
+                "width": 100,
+                "height": 100
+              }
+            },
+            "opacity": {
+              "value": 0.7,
+              "random": false,
+              "anim": {
+                "enable": false,
+                "speed": 1,
+                "opacity_min": 0.1,
+                "sync": false
+              }
+            },
+            "size": {
+              "value": 8,
+              "random": true,
+              "anim": {
+                "enable": false,
+                "speed": 20,
+                "size_min": 0.1,
+                "sync": false
+              }
+            },
+            "line_linked": {
+              "enable": false,
+              "distance": 50,
+              "color": "#ffffff",
+              "opacity": 0.6,
+              "width": 1
+            },
+            "move": {
+              "enable": true,
+              "speed": 5,
+              "direction": "bottom",
+              "random": true,
+              "straight": false,
+              "out_mode": "out",
+              "bounce": false,
+              "attract": {
+                "enable": true,
+                "rotateX": 300,
+                "rotateY": 1200
+              }
+            }
+          },
+        
+          "retina_detect": true
+        });
+        
+        
+        </script>
+</html>

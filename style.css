@@ -3,11 +3,11 @@
 	}
 	html,
 	body {
-		background: #595959;
+		background: #f9f9f9;
 	 	height: 100% !important;
 	    	overflow: hidden !important;
 	    	margin: 0;
-                background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/inflicted.png);
+                background-image: url(https://static.tumblr.com/d40eae727a79de74c5b3c4cb5c8e9fd5/2pnwama/HC7pfqdws/tumblr_static_e6k5mmnyclc0c488gcsk00wgo.png);
                 background-position: center;
 }
 	}
@@ -18,7 +18,7 @@
 	}
 	a:hover,
 	li:hover {
-		color: #cc223f !important;
+		color: #09cd83 !important;
 		transition: all 0.3s ease-in-out;
 	}
 	#container {
@@ -56,7 +56,7 @@
 		margin: auto;
 	}
 	#time {
-		color: #E5E5E5 !important;
+		color: #fa561f !important;
 		font-size: 13px !important;
 		font-weight: 900 !important;
 		font-size: 13px !impotant;
@@ -67,7 +67,7 @@
 		margin-bottom: 10px;
 	}
 	#date {
-		color: #E5E5E5 !important;
+		color: #fa561f !important;
 		font-size: 13px !important;
 		font-weight: 900 !important;
 		font-size: 13px !impotant;
@@ -78,20 +78,20 @@
 		margin-bottom: 10px;
 	}
 	.message {
-		color: #FFF !important;
+		color: #f9f9f9  !important;
 		font-size: 40px !important;
 		font-weight: 900 !important;
 		font-family: "Montserrat", "KFhimaji" !important;
-		text-shadow: 3px 3px #cc223f;
+		text-shadow: 3px 3px #09cd83;
 		max-width: 1000px;
 		text-overflow: ellipsis;
 		white-space: nowrap !important;
 		overflow: hidden;
 	}
 	#banner {
-                background-image: url(https://i.imgur.com/eN2P27o.jpg);
+                background-image: url(https://i.imgur.com/QSV9HGj.jpg);
 		background-repeat: no-repeat !important; 
-		background-position: center 20% !important;
+		background-position: center 35% !important;
 		background-size: cover !important;
 		box-shadow: 0px 42px 25px -28px rgba(0, 0, 0, 0.5) !important;
 		width: 68% !important;
@@ -103,6 +103,7 @@
 		top: -20px !important;
 		bottom: 0px !important;
 		opacity: 1;
+		z-index: 3;
 	}
 	.form {
 		background: #1a1a1a !important;
@@ -150,6 +151,7 @@
 		line-height: 45px;
 		position: absolute; 
 		bottom: 0px !important;
+		z-index: 3;
 	}
 
 	.nav {
